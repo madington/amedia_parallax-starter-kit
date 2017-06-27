@@ -6,7 +6,9 @@ This seed repo serves as an Parallax starter for anyone looking to get up and ru
 
 * `fork` this repo
 * `clone` your fork
-* Open `examples/custom.html` in your browser
+* `npm install`
+* `npm run dev` the example file is open in your browser
+* Start building awesome stuff
 
 ## Build steps and best practises
 
@@ -19,9 +21,9 @@ html, body, #banner {
 }
 ```
 
-Work with media querys to ensure all vital information is viewable in different screen sizes. Usually its based on the content thats have to fit. Start with the smallest and work your way up.
+Work with media queries to ensure all vital information is viewable in different screen sizes. Usually its based on the content thats have to fit. Start with the smallest and work your way up.
 
-In the `examples/custom.html` we have a this big copy text thats transforms from smallest font-size of `62px`, `125px` to `150px`.
+In the `examples/custom.html` we have a this big copy text thats transforms from smallest font-size of `62px`, `125px` to `150px` depending on available space.
 
 ## Hosting and delivery
 

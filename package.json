@@ -4,7 +4,8 @@
   "description": "This seed repo serves as an Parallax starter for anyone looking to get up and running with custom parallax ad.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browser-sync start --server 'examples' --files 'examples/*.html' --index 'custom.html'"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/madington/amedia_parallax-starter-kit/issues"
   },
-  "homepage": "https://github.com/madington/amedia_parallax-starter-kit#readme"
+  "homepage": "https://github.com/madington/amedia_parallax-starter-kit#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.12"
+  }
 }
